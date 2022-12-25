@@ -1,0 +1,22 @@
+package c;
+
+import java.util.ArrayList;
+
+public class NullKeyword {
+
+	public static void main(String[] args) {
+		
+		String a = null;
+		ArrayList b = null;
+		// cant set int or double as null
+		// null only works with strings and objects
+		
+		int c = 4;
+		double d = 7.1;
+		 if(a == null) {
+			 System.out.println("is null");
+		 }
+
+	}
+
+}

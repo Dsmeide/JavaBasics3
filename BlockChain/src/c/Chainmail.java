@@ -1,0 +1,39 @@
+package c;
+
+class Student {
+	
+	String name;
+	int grade;
+	
+	public Student setName(String name) {
+		this.name = name;
+		return this;
+	}
+	
+	public Student setGrade(int grade) {
+		this.grade = grade;
+		return this;
+	}
+	
+}
+
+public class Chainmail {
+
+	public static void main(String[] args) {
+		
+		//String a = "pie";
+		//System.out.println(a.toLowerCase().charAt(0));
+		//fun practice on concatenating methods
+		//int b = a.concat(" is good").chars().toArray()[0];
+		//System.out.println(b);
+		
+		Student s = new Student();
+		s.setGrade(99).setName("Bob");
+		
+		System.out.println(s.name);
+		System.out.println(s.grade);
+		
+		
+	}
+
+}

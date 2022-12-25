@@ -1,0 +1,36 @@
+package c;
+
+public class Params {
+
+	public static void main(String[] args) {
+		
+		
+		sayHi();
+		printPerson("BERNARDO", 45);
+		printPerson("FERNANDO", 50);
+		printPerson("ALFREDO", 70);
+		printPerson("LEONARDO", 500);
+		
+		System.out.println(add(5, 6));
+		
+		int result1 = add(7, 99);
+		int result2 = add(88, 799);
+		int result3 = add(11, 654);
+		int result4 = add(70, 9876);
+		
+		System.out.println(result3);
+		System.out.println(result1);
+		
+	}
+	public static void sayHi() {
+		System.out.println("hi");
+	}
+	
+	public static void printPerson(String name, int age) {
+		
+		System.out.println("The person's name is " + name + " and their age is " + age + " years old!");
+	}
+	public static int add(int x, int y) {
+		return x + y;
+	}
+}

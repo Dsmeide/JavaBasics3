@@ -1,0 +1,13 @@
+package c;
+
+public class Chainmail {
+
+	public static void main(String[] args) {
+		
+		String a = "pie";
+		//System.out.println(a.toLowerCase().charAt(0));
+		int b = a.concat(" is good").chars().toArray()[0];
+		System.out.println(b);
+	}
+
+}

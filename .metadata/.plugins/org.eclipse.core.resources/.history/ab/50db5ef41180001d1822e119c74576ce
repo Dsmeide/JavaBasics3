@@ -1,0 +1,24 @@
+package c;
+
+public class Params {
+
+	public static void main(String[] args) {
+		
+		
+		sayHi();
+		printPerson("BERNARDO", 45);
+		printPerson("FERNANDO", 50);
+		printPerson("ALFREDO", 70);
+		printPerson("LEONARDO", 500);
+		
+	}
+	public static void sayHi() {
+		System.out.println("hi");
+	}
+	
+	public static void printPerson(String name, int age) {
+		
+		System.out.println(name + age);
+	}
+
+}

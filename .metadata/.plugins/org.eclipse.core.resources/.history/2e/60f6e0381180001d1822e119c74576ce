@@ -1,0 +1,22 @@
+package c;
+
+public class Params {
+
+	public static void main(String[] args) {
+		
+		
+		sayHi();
+		sayName("BERNARDO");
+		
+		
+	}
+	public static void sayHi() {
+		System.out.println("hi");
+	}
+	
+	public static void sayName(String name) {
+		
+		System.out.println(name);
+	}
+
+}

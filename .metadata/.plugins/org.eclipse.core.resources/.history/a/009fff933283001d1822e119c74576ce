@@ -1,0 +1,28 @@
+package c;
+
+public class StringsAreFun {
+
+	public static void main(String[] args) {
+		
+		//String a = "lemur";
+		//String b = "lemur";
+		
+		//if(a == b) {
+			//System.out.println("true");
+		//} else {
+			//System.out.println("false");
+		
+		//OR
+		
+		String a = new String("lemur");
+		String b = new String("lemur");
+		
+		if(a == b) {
+			System.out.println("yes");
+		} else {
+			System.out.println("NO");
+		}
+
+	}
+
+}
